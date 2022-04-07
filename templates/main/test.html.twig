@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{#  {%  include '_nav.html.twig' %} #}
+
+{% block body %}
+    <h2>Test</h2>
+    <p>Je suis redirigé ici quand je suis authentifié.</p>
+{% endblock %}
+
+{% block title %}Test | {{ parent() }}{% endblock %}
